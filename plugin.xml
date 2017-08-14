@@ -7,8 +7,8 @@
 	<keywords>file,md5,checksum,hash</keywords>
 	<repo>https://github.com/fastrde/phonegap-md5.git</repo>
 	<issue>https://github.com/fastrde/phonegap-md5/issues</issue>
-<!-- 	<dependency id="org.apache.cordova.file" version="3.0.0" /> -->
-	<dependency id="cordova-plugin-file-max3" url="https://github.com/mhudnell/cordova-plugin-file" commit="max" />
+	<dependency id="cordova-plugin-file" version="3.0.0" />
+<!-- 	<dependency id="cordova-plugin-file-max3" url="https://github.com/mhudnell/cordova-plugin-file" commit="max" /> -->
 	<js-module src="www/md5chksum.js" name="md5chksum">
 		<clobbers target="md5chksum" />
 	</js-module>
